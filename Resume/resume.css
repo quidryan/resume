@@ -1,24 +1,59 @@
 @CHARSET "UTF-8";
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	outline: 0;
 	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
-	background: transparent;
 }
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
 ol, ul {
 	list-style: none;
-	list-style-image: none;
-	list-style-position: outside;
-	list-style-type: none;
 }
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Styles */
 body {
 	font-family:georgia,garamond,serif;
 	font-size: 14px;
+	line-height: 1.3;
 }
 
 h2 {
@@ -174,5 +209,12 @@ h3 em {
 	filter: alpha(opacity=75);
 	-moz-opacity: 0.75;
 	opacity: 0.75;
+}
+
+table {
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+	margin: 0 0 16px;
 }
 
