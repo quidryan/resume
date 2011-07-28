@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+#header {
+	overflow: hidden;
+	width: 100%;
+}
+
+#contact {
+	width: 40%; 
+}
+
+#summary {
+	width: 60%px;
+}
+
+#contentWrapper {
+	width: 100%;
+}
+
+#content {
+	width: 90%;
+}
+
+h2 {
+	width: 90%;
+}
+
+h3 {
+	width: 80%;
+}

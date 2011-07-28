@@ -50,6 +50,11 @@ table {
 }
 
 /* My Styles */
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: red;}
+
 body {
 	font-family:georgia,garamond,serif;
 	font-size: 14px;
@@ -66,7 +71,7 @@ h2 {
 	border-top-color: #111;
 	border-left-color: #111;
 	color: #F8F8F8;
-	font: normal 18px/24px Helvetica, Arial, sans-serif;
+	font: normal 18px Helvetica, Arial, sans-serif;
 	text-shadow: none;
 	text-transform: uppercase;
 }
@@ -81,7 +86,7 @@ h3 {
 	border-top-color: #BCBCBC;
 	border-left-color: #BCBCBC;
 	color: #666;
-	font: bold 14px/20px Helvetica, Arial, sans-serif;
+	font: bold 14px Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -95,6 +100,7 @@ h3 em {
 
 .disc li {
 	list-style-type: disc;
+	margin: 0 0 16px;
 }
 
 #headerWrapper {
@@ -131,7 +137,7 @@ h3 em {
 	margin: 0 0 12px;
 	padding: 0 0 8px;
 	border-bottom: thin groove; 
-	font: 20px/30px Helvetica, Arial, sans-serif;
+	font: 20px Helvetica, Arial, sans-serif;
 	color: #333;
 	text-transform: uppercase;
 	text-align: right;
@@ -195,7 +201,7 @@ h3 em {
 #content ul.gallery {
 	clear: both;
 	overflow: hidden;
-	margin: 5px 0 0;
+	margin: 5px 0 0 24px;
 	padding: 0;
 }
 
@@ -204,17 +210,47 @@ h3 em {
 	display: block;
 	width: 60px;
 	height: 85px;
-	margin: 0 10px;
+	margin: 0 10px 0 0;
 	text-align: center;
+}
+
+#content ul.gallery li a img {
+	height: 60px;
+	width: 60px;
+	
 	filter: alpha(opacity=75);
 	-moz-opacity: 0.75;
 	opacity: 0.75;
+	
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;	
 }
 
-table {
+.skill-table {
+	margin: 0 0 16px 0px;
+	padding: 0 0 0 0px;
+}
+
+.skill-table table {
 	vertical-align: middle;
 	border: 1px solid #CCC;
 	border-collapse: collapse;
-	margin: 0 0 16px;
+	width: 100%;
 }
 
+.skill-table table td {
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+}
+
+.skill-table table tr td:nth-child(1) {
+	font-weight: bold;
+	padding: 7px 7px 7px 2px;
+	width: 110px;
+}
+
+.skill-table table tr td:nth-child(2) {
+	font-style: italic;
+	padding: 7px 2px 7px 7px;
+}

@@ -6,7 +6,9 @@
 	<title>Resume for Justin Ryan</title> 
 	<meta name="description" content="My resume done as HTML/CSS. Primarily for conversion to PDF, and should be viewed only in a modern browser" /> 
 	<meta name="keywords" content="resume, java, programmer" /> 
-	<link type="text/css" rel="stylesheet" media="screen" href="resume.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="resume.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="resume.css">
+	<link rel="stylesheet" type="text/css" media="print" href="print.css">
 	<script src="resume.js"></script>
 	<!--  Inspired by http://mustafaquilon.com/files/tf/resume-cv-perfecto/ -->
 </head>
@@ -19,7 +21,7 @@
   	18 Gilbert Rd, Belmont, MA<br/>
   	(617) 513-0287<br/>
   	<a href="mailto:justin@halfempty.org">justin@halfempty.org</a><br/>
-  	<a href="http://twitter.com/#!/quidryan">@quidryan</a>
+  	<a href="http://twitter.com/#!/quidryan">@quidryan</a> on 
   	<a href="https://github.com/quidryan">github</a>
   </p>
   </div>
@@ -98,25 +100,18 @@
 	</div>
 	<div id="skillz" class="section">
 		<h2>Technical Skills</h2>
-		<p>
-		Budding skills: GIT, Scala, CSS, Guice
-		Recent skills: Apache, Tomcat, SVN, Java, Javascript, REST, GWT, Maven, Mockito, JUnit4, Spring
-		Fading skills: PHP, TCL, Ant, Soap, Struts, JSF, Facelets, JUnit3, CSS, Bash, CORBA, RMI, NIO, Swing, 
-		
-		Server Tier: Java, Scala, JMS, JPA, Spring, Guice
-		Web Tier: GWT, Javascript, CSS, JSP, Spring MVC, HTTP, Apache, Tomcat, PHP, REST
-		Scripting: Tcl, Bash
-		Build: SVN, GIT, Maven
-		
-		</p>
-		<table summary="A summary of technical buzzwords">
+		<div class="skill-table">
+		<table summary="A summary of technical buzzwords" class="skill-table">
 		    <colgroup class="skill-category"></colgroup>
 		    <colgroup class="skill-list"></colgroup>
 		    <tbody>
-		        <tr><td>Release Management</td><td>SVN, GIT, Maven, </td></tr>
-		        <tr><td></td><td></td></tr>
+		        <tr><td>Recent Skills</td><td>Apache, Tomcat, SVN, Java, Javascript, REST, GWT, Maven, Mockito, JUnit4, Spring, Hibernate, SQL, JAXB, Lombok, Guava</td></tr>
+		        <tr><td>Budding Skills</td><td>GIT, Scala, CSS, jQuery, Guice, Hadoop, OSGi, Groovy</td></tr>
+		        <tr><td>Fading Skills</td><td>PHP, TCL, Ant, Soap, Struts, JSF, Facelets, JUnit3, CSS, Bash, CORBA, RMI, NIO, Swing, Linux Administration, Regex </td></tr>
+		        <tr><td>Soft Skills</td><td>Agile, Testing, Mentoring</td></tr>
 		    </tbody>
 		</table>
+		</div>
 	</div>	
 	<div id="other" class="section">
 		<h2>Other</h2>
@@ -126,19 +121,19 @@
 		<p>
 		<ul class="gallery">
 			<li><a href="https://picasaweb.google.com/quidryan/Hadley?authkey=Gv1sRgCPr4tLbxxevUEw">
-				<img src="images/200px-Family-black.png" alt="Spending time with my family" width="60" height="60">
+				<img src="images/200px-Family-black.png" alt="Spending time with my family">
 				Family</a></li>
 			<li><a href="https://picasaweb.google.com/quidryan/IndiaSlideshow?authkey=Gv1sRgCImLqartgdz6lAE">
-				<img src="images/200px-Plane-black.png" alt="Visiting far-a-way places" width="60" height="60">
+				<img src="images/200px-Plane-black.png" alt="Visiting far-a-way places">
 				Travel</a></li>
 			<li><a href="https://picasaweb.google.com/quidryan/Outdoors02?authuser=0&feat=directlink">
-				<img src="images/200px-Hiking-black.png" alt="Spending time in nature" width="60" height="60">
+				<img src="images/200px-Hiking-black.png" alt="Spending time in nature">
 				Hiking</a></li>
 			<li><a href="http://www.arduino.cc/">
-				<img src="images/200px-Electronics-black.png" alt="Hobbyist hacker" width="60" height="60">
+				<img src="images/200px-Electronics-black.png" alt="Hobbyist hacker">
 				Electronics</a></li>
 			<li><a href="http://www.ubuntu.com/">
-				<img src="images/200px-Tux-black.png" alt="Long time linux user" width="60" height="60">
+				<img src="images/200px-Tux-black.png" alt="Long time linux user">
 				Linux</a></li>
 		</ul>
 		</p>		
