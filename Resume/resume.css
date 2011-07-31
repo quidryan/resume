@@ -78,7 +78,7 @@ h2 {
 
 h3 {
 	position: relative;
-	width: 920px;
+	width: 930px;
 	margin: 0 0 16px -10px;
 	padding: 4px 10px;
 	background-color: #EBEBEB;
@@ -161,8 +161,7 @@ h3 em {
 
 #summary {
 	overflow: hidden;
-	float: left;
-	width: 598px;
+	float: none;
 	margin: 0 0 0 0;
 }
 
@@ -201,7 +200,7 @@ h3 em {
 #content ul.gallery {
 	clear: both;
 	overflow: hidden;
-	margin: 5px 0 0 24px;
+	margin: 0 0 5px 24px;
 	padding: 0;
 }
 

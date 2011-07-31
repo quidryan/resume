@@ -8,10 +8,12 @@
 
 #contact {
 	width: 170px; 
+	float: left;
 }
 
 #summary {
-	width: 500px;
+	width: auto;
+	float: none;
 }
 
 #contentWrapper {
@@ -26,12 +28,12 @@
 }
 
 h2 {
-	width: 100%;
+	width: 99%;
 	margin: 0 0 0 0;
 }
 
 h3 {
-	width: 100%;
+	width: 99%;
 	margin: 0 0 0 5px;
 }
 
