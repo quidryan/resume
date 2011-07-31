@@ -109,7 +109,7 @@ h3 em {
 	overflow: hidden;
 	clear: both;
 	width: 100%;
-	margin: 5px 0 10px;
+	margin: 0 0 10px;
 }
 
 #header {
@@ -217,11 +217,10 @@ h3 em {
 #content ul.gallery li a img {
 	height: 60px;
 	width: 60px;
-	
+
 	filter: alpha(opacity=75);
 	-moz-opacity: 0.75;
 	opacity: 0.75;
-	
 	-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;	
