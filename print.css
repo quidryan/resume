@@ -7,7 +7,7 @@
 }
 
 #contact {
-	width: 170px; 
+	width: 170px;
 	float: left;
 }
 
@@ -27,7 +27,7 @@
 	width: 100%;
 }
 
-#content p, #content ul {
+#content p,#content ul {
 	margin-right: 10px;
 }
 
@@ -38,10 +38,8 @@
 h2 {
 	width: 95%;
 	margin: 0 0 0 0;
-	border: 2px solid green;
+	border: 2px solid black;
 	font-weight: bold;
-	
-	
 }
 
 h3 {
@@ -53,29 +51,27 @@ h3 {
 }
 
 body {
-	font-family:georgia,garamond,serif;
+	font-family: georgia, garamond, serif;
 	font-size: 12px;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 
 #content ul.gallery li a {
 	width: 45px;
 	height: 75px;
-	font-size:11px;
+	font-size: 11px;
 }
 
 #content ul.gallery li a img {
 	/** Reset filters, since it'll print black */
-	filter: alpha(opacity=100);
+	filter: alpha(opacity =       100);
 	-moz-opacity: 1;
 	opacity: 1;
 	-webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;	
-    
-    height: 40px;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	height: 40px;
 	width: 40px;
-    
 }
 
 .skill-table {

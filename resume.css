@@ -58,7 +58,7 @@ A:hover {text-decoration: underline; color: red;}
 body {
 	font-family:georgia,garamond,serif;
 	font-size: 1em;
-	line-height: 1.3;
+	line-height: 1.4;
 }
 
 h2 {
@@ -72,6 +72,7 @@ h2 {
 	font: normal 1.2em Helvetica, Arial, sans-serif;
 	text-shadow: none;
 	text-transform: uppercase;
+	
 }
 
 h3 {
