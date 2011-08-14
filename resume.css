@@ -51,8 +51,8 @@ table {
 
 /* My Styles */
 A:link {text-decoration: none}
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
+A:visited {text-decoration: none; color: #00E}
+A:active {text-decoration: none; color: #00E}
 A:hover {text-decoration: underline; color: red;}
 
 body {
@@ -259,7 +259,7 @@ h3 em {
 	float: left;
 	width: 455px;
 	margin: 0 15px 0 0;
-	height: 9em;
+	height: auto;
 }
 
 #other .other-block h3 {
@@ -271,4 +271,19 @@ h3 em {
 
 #other .other-block p {
 	padding: 0 0 0 10px;
+}
+
+.clearall { 
+	clear: both;
+}
+
+#resume_url {
+	display: none;
+	width: 100%;
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+
+#twitter {
+	
 }
