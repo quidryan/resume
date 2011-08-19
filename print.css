@@ -1,9 +1,18 @@
 @CHARSET "UTF-8";
 
+A:link {text-decoration: none; color: black;}
+A:visited {text-decoration: none; color: black;}
+A:active {text-decoration: none;  color: black;}
+
 #header {
 	overflow: hidden;
 	width: 100%;
 	text-shadow: none;
+}
+
+#contact #name {
+	margin: 0 0 0px 0;
+	padding: 0 0 0px 0;	
 }
 
 #contact {
@@ -15,6 +24,11 @@
 	width: auto;
 	float: none;
 	margin-right: 20px;
+}
+
+#summary p {
+	line-height: 1.5em;
+	text-align: justify;
 }
 
 #contentWrapper {
@@ -32,7 +46,7 @@
 }
 
 #content ul {
-	margin-left: 5px;
+	margin-left: 0px;
 }
 
 h2 {
@@ -52,7 +66,7 @@ h3 {
 
 body {
 	font-family: georgia, garamond, serif;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1.5;
 }
 
@@ -90,11 +104,15 @@ body {
 	float: left;
 	width: 315px;
 	margin: 10px 15px 0 0;
+/**
 	height: 10em;
+	*/
 }
 
 #other .other-block h3 {
+	/**
 	width: 305px;
+	*/
 	margin: 0 0 10px 0;
 	padding: 0 0 0 10px;
 	width: 100%;
@@ -106,4 +124,12 @@ body {
 
 #other .other-block a {
 	font-size: 12px;
+}
+
+#resume_url {
+	display: inherit;
+}
+
+#twitter {
+	display: none;	
 }
