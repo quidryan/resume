@@ -87,6 +87,15 @@ h3 {
 	text-transform: uppercase;
 }
 
+h4 {
+	position: relative;
+	width: 928px;
+	margin: 5px 0 16px -10px;
+	padding: 4px 10px;
+	font: bold 1.1em Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid #ddd;
+}
+
 strong, b {
 	font-weight: bolder;
 }
@@ -96,6 +105,10 @@ em {
 }
 
 h3 em {
+	float: right;
+}
+
+h4 em {
 	float: right;
 }
 
@@ -118,7 +131,7 @@ h3 em {
 	width: 960px;
 	margin: 0 auto;
 	padding: 23px 0 5px;
-	text-shadow: 1px 1px 0 #f8f8f8;
+	/* text-shadow: 1px 1px 0 #f8f8f8; */
 }
 
 #contact {
@@ -139,7 +152,7 @@ h3 em {
 	padding: 0 0 8px;
 	border-bottom: thin groove; 
 	font: 2em Helvetica, Arial, sans-serif;
-	color: #333;
+	color: rgb(223, 221, 221);
 	text-transform: uppercase;
 	text-align: right;
 }
@@ -190,41 +203,12 @@ h3 em {
 
 #content ul, #content ol {
 	margin: 0 0 16px;
-	padding: 0 0 0 24px;
+	padding: 0 0 0 2em;
 }
 
 #content p {
 	margin: 0 0 16px;
-	padding: 0 0 0 24px;
-}
-
-#content ul.gallery {
-	clear: both;
-	overflow: hidden;
-	margin: 0 0 5px 24px;
-	padding: 0;
-}
-
-#content ul.gallery li a {
-	float: left;
-	display: block;
-	width: 4.5em;
-	height: 85px;
-	margin: 0 10px 0 0;
-	text-align: center;
-}
-
-#content ul.gallery li a img {
-	height: 60px;
-	width: 60px;
-
-	filter: alpha(opacity=75);
-	-moz-opacity: 0.75;
-	opacity: 0.75;
-	
-	-webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;	
+	padding: 0 0 0 1em;
 }
 
 .skill-table {
@@ -247,7 +231,7 @@ h3 em {
 .skill-table table tr td:nth-child(1) {
 	font-weight: bold;
 	padding: 7px 7px 7px 2px;
-	width: 8em;
+	width: 9em;
 }
 
 .skill-table table tr td:nth-child(2) {
@@ -259,7 +243,6 @@ h3 em {
 	float: left;
 	width: 455px;
 	margin: 0 15px 0 0;
-	height: 9em;
 }
 
 #other .other-block h3 {
