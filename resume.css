@@ -50,10 +50,10 @@ table {
 }
 
 /* My Styles */
-A:link {text-decoration: none}
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
-A:hover {text-decoration: underline; color: red;}
+a:link {text-decoration: none; color: blue;}
+a:visited {text-decoration: none; color: blue;}
+a:active {text-decoration: none; color: blue;}
+a:hover {text-decoration: underline; color: red;}
 
 body {
 	font-family:georgia,garamond,serif;
@@ -210,6 +210,15 @@ h4 em {
 #content p {
 	margin: 0 0 16px;
 	padding: 0 0 0 1em;
+}
+
+#goals p {
+	padding: 0;
+}
+
+#goals li {
+    list-style-type: disc;
+    margin: 0 0 14px;
 }
 
 .skill-table {

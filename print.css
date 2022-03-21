@@ -27,6 +27,10 @@
 	width: 100%;
 }
 
+#goals p {
+	margin: 1em;
+}
+
 #content p,#content ul {
 	margin-right: 10px;
 }
@@ -48,6 +52,13 @@ h3 {
 	padding: 5px 10px 5px 10px;
 	color: black;
 	border: 1px solid #DDD;
+}
+
+h4 {
+	width: 94%;
+	margin: 5px 0px 5px 5px;
+	padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 body {
@@ -88,13 +99,11 @@ body {
 
 #other .other-block {
 	float: left;
-	width: 315px;
+	width: 50em;
 	margin: 10px 15px 0 0;
-	height: 10em;
 }
 
 #other .other-block h3 {
-	width: 305px;
 	margin: 0 0 10px 0;
 	padding: 0 0 0 10px;
 	width: 100%;
@@ -105,5 +114,5 @@ body {
 }
 
 #other .other-block a {
-	font-size: 12px;
+/*	font-size: 12px;*/
 }
